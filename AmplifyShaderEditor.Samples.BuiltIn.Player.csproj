@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0CD5D331-D191-59C0-32EC-C6096E11C8DF}</ProjectGuid>
+    <ProjectGuid>{AF7E34FF-AB8D-FE89-6158-107A7B7DE145}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AmplifyShaderEditor.Samples.BuiltIn</AssemblyName>
@@ -955,7 +955,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{4DED1ED2-DEA8-288A-DC20-9AD443F9D49A}</Project>
+      <Project>{45E83E68-832E-568E-E17B-2683B53DAD15}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

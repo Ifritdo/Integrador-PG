@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E0DE97EF-24B0-A62E-2DEB-6B8E6BC7CF69}</ProjectGuid>
+    <ProjectGuid>{75E975D9-111C-CCC9-343E-E118E1F4E191}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -842,31 +842,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{4A2D1E5A-AFC5-18A8-EB55-49124B682F6F}</Project>
+      <Project>{0FA22764-F1E7-E2E9-F6F2-64C1047ACAFB}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{4DED1ED2-DEA8-288A-DC20-9AD443F9D49A}</Project>
+      <Project>{45E83E68-832E-568E-E17B-2683B53DAD15}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="AmplifyShaderEditor.Samples.BuiltIn.Player.csproj">
-      <Project>{0CD5D331-D191-59C0-32EC-C6096E11C8DF}</Project>
+      <Project>{AF7E34FF-AB8D-FE89-6158-107A7B7DE145}</Project>
       <Name>AmplifyShaderEditor.Samples.BuiltIn.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{88529F9B-24CF-61BF-A2CE-02819C3B54A8}</Project>
+      <Project>{D5F6D11E-8693-75F9-1EE7-9A714FA5A12A}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{82FBDB21-3C5D-B7DC-4A8E-C9D28DF2F5AD}</Project>
+      <Project>{3540DC91-151C-30FC-5E7E-8E1E2C7D1A3B}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{0CBA2CD4-33A6-6AF0-C7C6-F2905EA9EA8A}</Project>
+      <Project>{803DD6D6-7334-044F-5E56-D1B06DC1DAE0}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{8018064A-9355-3327-A0E9-FBA94B61711D}</Project>
+      <Project>{8E6FE77F-8A48-6123-A6D4-F6983144CFF6}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
   </ItemGroup>
