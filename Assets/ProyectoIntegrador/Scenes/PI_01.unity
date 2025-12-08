@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14257003, g: 0.15704364, b: 0.15546536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +122,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &195729971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+  m_PrefabInstance: {fileID: 2123351209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &195729973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195729971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de52e6274f9a0e94495b1f29adc47004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashDuration: 0.1
+  numberOfFlashes: 2
 --- !u!1001 &306369791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -347,6 +365,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &855753025 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+  m_PrefabInstance: {fileID: 1882691779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &855753027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855753025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de52e6274f9a0e94495b1f29adc47004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashDuration: 0.1
+  numberOfFlashes: 2
 --- !u!1 &1052704725 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
@@ -454,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fighter2
       objectReference: {fileID: 0}
+    - target: {fileID: 5822821947120931875, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf7ed9df8d86052448a18149663c40cd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -464,6 +505,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1052704726}
+    - targetCorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 855753027}
   m_SourcePrefab: {fileID: 100100000, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
 --- !u!1 &1971989548 stripped
 GameObject:
@@ -492,11 +536,35 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 855753027}
+        m_TargetAssemblyTypeName: HitReaction, Assembly-CSharp
+        m_MethodName: "TomarDa\xF1o"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 855753027}
+        m_TargetAssemblyTypeName: HitReaction, Assembly-CSharp
+        m_MethodName: "TomarDa\xF1o"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls: []
 --- !u!95 &1971989551
@@ -575,7 +643,7 @@ PrefabInstance:
     - target: {fileID: 5822821947120931875, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d057a1f56ba8ba545b62b89aff7748bb, type: 2}
+      objectReference: {fileID: 2100000, guid: 17e0ad102d9e679468e2224b33b90fd4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -586,6 +654,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1971989551}
+    - targetCorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 195729973}
   m_SourcePrefab: {fileID: 100100000, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -363,6 +363,7 @@
 "Assets/ProyectoIntegrador/Elements/Weather/FantasyEnvironments/Environments/Town/Scripts/Door.cs"
 "Assets/ProyectoIntegrador/Scripts/Fight/Fighter.cs"
 "Assets/ProyectoIntegrador/Scripts/Fight/FightersManager.cs"
+"Assets/ProyectoIntegrador/Scripts/HitReaction.cs"
 "Assets/ProyectoIntegrador/Scripts/PI_GameManager.cs"
 "Assets/ProyectoIntegrador/Scripts/Shield/Shield.cs"
 "Assets/ProyectoIntegrador/Scripts/Shooter/Shooter.cs"
