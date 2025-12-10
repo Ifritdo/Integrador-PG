@@ -361,6 +361,7 @@
 "Assets/ProyectoIntegrador/Elements/Doors/Free Wood Door Pack/Script/Door.cs"
 "Assets/ProyectoIntegrador/Elements/Doors/Free Wood Door Pack/Script/FPSController.cs"
 "Assets/ProyectoIntegrador/Elements/Weather/FantasyEnvironments/Environments/Town/Scripts/Door.cs"
+"Assets/ProyectoIntegrador/Scripts/Fight/CameraShake.cs"
 "Assets/ProyectoIntegrador/Scripts/Fight/Fighter.cs"
 "Assets/ProyectoIntegrador/Scripts/Fight/FightersManager.cs"
 "Assets/ProyectoIntegrador/Scripts/HitReaction.cs"
