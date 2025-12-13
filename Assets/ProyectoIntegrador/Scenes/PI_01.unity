@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14257003, g: 0.15704364, b: 0.15546536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -402,6 +401,21 @@ MonoBehaviour:
       m_Calls: []
   - m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1052704729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052704725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49cf6d207249a042be81a368cc9ad32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dissolveMaterial: {fileID: 2100000, guid: d1d19ee9d749e5e4b9aad446295f3a20, type: 2}
+  dissolveDuration: 2
+  delayBeforeDissolve: 18
 --- !u!1001 &1882691779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -450,10 +464,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7813590141776298306, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d1d19ee9d749e5e4b9aad446295f3a20, type: 2}
     - target: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       propertyPath: m_Name
       value: Fighter2
       objectReference: {fileID: 0}
+    - target: {fileID: 5822821947120931875, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d1d19ee9d749e5e4b9aad446295f3a20, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -464,6 +486,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1052704726}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1052704729}
   m_SourcePrefab: {fileID: 100100000, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
 --- !u!1 &1971989548 stripped
 GameObject:
@@ -568,6 +593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7813590141776298306, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -840037777384891287, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
     - target: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       propertyPath: m_Name
       value: Fighter1
@@ -575,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 5822821947120931875, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d057a1f56ba8ba545b62b89aff7748bb, type: 2}
+      objectReference: {fileID: -4565884009001823619, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
