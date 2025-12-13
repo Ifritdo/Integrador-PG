@@ -8,7 +8,9 @@ public class Fighter : MonoBehaviour
 {
    [SerializeField] private List<float> delays  = new List<float>(); 
    [SerializeField] private List<UnityEvent> events  = new List<UnityEvent>();
-   
+
+   [SerializeField] private postProcessing postProcessor;
+
    private int currentIndex;
    private Animator animator;
 
@@ -30,6 +32,14 @@ public class Fighter : MonoBehaviour
       animator.SetInteger("index", currentIndex);
       animator.SetTrigger("triggerAnim");
       events[currentIndex].Invoke();
+   }
+
+   public void OnFallAnimationFinished()
+   {
+       if (postProcessor != null)
+       {
+           postProcessor.StartGrayscaleTransition();
+       }
    }
 
 }

@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\readme.txt" />
+    <None Include="Assets\ProyectoIntegrador\Materials\LoseScreen.shader" />
     <None Include="Assets\MaterialesClase\ActividadesClase\LensDistortion.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilMask.shader" />
     <None Include="Assets\ProyectoIntegrador\Materials\ScreenPulse.shader" />

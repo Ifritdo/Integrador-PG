@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|f:\\unity\\proyectos\\integrador pg\\integrador-pg\\assets\\proyectointegrador\\scripts\\fight\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\fight\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|f:\\unity\\proyectos\\integrador pg\\integrador-pg\\assets\\proyectointegrador\\scripts\\hitreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\hitreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\assets\\proyectointegrador\\scripts\\fight\\fightersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|f:\\unity\\proyectos\\integrador pg\\integrador-pg\\assets\\proyectointegrador\\scripts\\fight\\fightersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\fight\\fightersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\assets\\proyectointegrador\\scripts\\fight\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\fight\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\assets\\materialesclase\\postprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\materialesclase\\postprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\assets\\proyectointegrador\\scripts\\fight\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\fight\\camerashake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\assets\\proyectointegrador\\scripts\\hitreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\hitreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "postProcessing.cs",
+              "DocumentMoniker": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\MaterialesClase\\postProcessing.cs",
+              "RelativeDocumentMoniker": "Assets\\MaterialesClase\\postProcessing.cs",
+              "ToolTip": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\MaterialesClase\\postProcessing.cs",
+              "RelativeToolTip": "Assets\\MaterialesClase\\postProcessing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:29:51.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CameraShake.cs",
               "DocumentMoniker": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\Fight\\CameraShake.cs",
               "RelativeDocumentMoniker": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\CameraShake.cs",
@@ -50,12 +66,11 @@
               "RelativeToolTip": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\CameraShake.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T23:42:42.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T23:42:42.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HitReaction.cs",
               "DocumentMoniker": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\HitReaction.cs",
               "RelativeDocumentMoniker": "Assets\\ProyectoIntegrador\\Scripts\\HitReaction.cs",
@@ -63,30 +78,30 @@
               "RelativeToolTip": "Assets\\ProyectoIntegrador\\Scripts\\HitReaction.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T23:46:15.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T23:46:15.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FightersManager.cs",
               "DocumentMoniker": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\Fight\\FightersManager.cs",
               "RelativeDocumentMoniker": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\FightersManager.cs",
               "ToolTip": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\Fight\\FightersManager.cs",
               "RelativeToolTip": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\FightersManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwDYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:58:21.637Z"
+              "WhenOpened": "2025-12-01T21:58:21.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Fighter.cs",
               "DocumentMoniker": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\Fight\\Fighter.cs",
               "RelativeDocumentMoniker": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\Fighter.cs",
               "ToolTip": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\Fight\\Fighter.cs",
               "RelativeToolTip": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\Fighter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T21:08:45.807Z"
             }
