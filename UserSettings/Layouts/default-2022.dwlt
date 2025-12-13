@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: ScreenPul..
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -352,8 +352,8 @@ MonoBehaviour:
   m_lastTimeSaved: 15210.5089214
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2741.5254, y: 974.70624}
-  m_cameraZoom: 2.5817575
+  m_cameraOffset: {x: 2741.525, y: 974.7062}
+  m_cameraZoom: 2.581758
   m_minNodePos: {x: -1954.4608, y: -518.10077}
   m_maxNodePos: {x: 272.28174, y: 1652.7634}
   m_isDirty: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_zoomChanged: 0
   m_lastWindowWidth: 1206
   m_graphCount: 1
-  m_currentInactiveTime: 14.047327000000223
+  m_currentInactiveTime: -14392.016039299999
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -1115,9 +1115,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a910000
+      m_SelectedIDs: 7c670000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cfaffff2efbffff7a64000082640000
+      m_ExpandedIDs: 8efaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1285,7 +1285,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ProyectoIntegrador/Materials
+    - Assets/MaterialesClase
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1293,16 +1293,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ProyectoIntegrador/Materials
+  - Assets/MaterialesClase
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Unity\Proyectos\Integrador PG\Integrador-PG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a660000
-    m_LastClickedID: 26250
-    m_ExpandedIDs: 0000000072660000746600007666000000ca9a3b
+    m_SelectedIDs: 7c670000
+    m_LastClickedID: 26492
+    m_ExpandedIDs: 0000000092660000946600009666000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1330,7 +1330,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000726600007466000076660000
+    m_ExpandedIDs: 00000000926600009466000096660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

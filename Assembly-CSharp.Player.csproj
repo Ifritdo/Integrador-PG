@@ -70,17 +70,22 @@
     <Compile Include="Assets\ProyectoIntegrador\Elements\Weather\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\FightersManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\Door.cs" />
+    <Compile Include="Assets\MaterialesClase\postProcessing.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shooter\Shooter.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shield\Shield.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\readme.txt" />
+    <None Include="Assets\MaterialesClase\ActividadesClase\LensDistortion.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilMask.shader" />
     <None Include="Assets\ProyectoIntegrador\Materials\ScreenPulse.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilSprite.shader" />
+    <None Include="Assets\MaterialesClase\ActividadesClase\Quemado.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilObject.shader" />
+    <None Include="Assets\MaterialesClase\ActividadesClase\Botonmetal.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\TVs &amp; Cams\_Television_set\SpecGrayscaleSF.shader" />
     <None Include="Assets\ProyectoIntegrador\Materials\RecibirGolpe.shader" />
+    <None Include="Assets\MaterialesClase\ActividadesClase\Flow.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
