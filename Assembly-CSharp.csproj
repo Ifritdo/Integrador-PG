@@ -70,6 +70,7 @@
     <Compile Include="Assets\ProyectoIntegrador\Elements\Weather\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\FightersManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\Door.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Dissolver.cs" />
     <Compile Include="Assets\MaterialesClase\postProcessing.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shooter\Shooter.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shield\Shield.cs" />
@@ -80,6 +81,7 @@
     <None Include="Assets\MaterialesClase\ActividadesClase\LensDistortion.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilMask.shader" />
     <None Include="Assets\ProyectoIntegrador\Materials\ScreenPulse.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\Disolution.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilSprite.shader" />
     <None Include="Assets\MaterialesClase\ActividadesClase\Quemado.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilObject.shader" />
