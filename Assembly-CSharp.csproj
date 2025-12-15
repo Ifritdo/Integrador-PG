@@ -141,6 +141,7 @@
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea10-Projector\Highlight\Proyector.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\CardFrame.shader" />
+    <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\Fresnel.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea7-RenderTxt\TvVignette.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tareas\2708\Ej4.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tareas\Clase2\HeightMap.shader" />
@@ -1221,9 +1222,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AmplifyShaderEditor.Samples.BuiltIn.csproj" />
-    <ProjectReference Include="LineworkLite.Editor.csproj" />
     <ProjectReference Include="AmplifyShaderEditor.csproj" />
-    <ProjectReference Include="LineworkLite.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

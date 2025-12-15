@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,13 +45,13 @@ MonoBehaviour:
     height: 948
   m_MinSize: {x: 482, y: 291}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 15}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -71,8 +71,8 @@ MonoBehaviour:
     y: 0
     width: 799
     height: 948
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -248,8 +248,8 @@ MonoBehaviour:
     y: 0
     width: 196
     height: 948
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -274,15 +274,15 @@ MonoBehaviour:
     y: 948
     width: 2055
     height: 351
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,8 +302,8 @@ MonoBehaviour:
     y: 0
     width: 505
     height: 1299
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -324,14 +324,14 @@ MonoBehaviour:
   m_MinSize: {x: 480, y: 270}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: UIFlow*
-    m_Image: {fileID: -5962505394399907832, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Character..
+    m_Image: {fileID: 5596697988196858232, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1083
+    x: 995
     y: 73
-    width: 970
+    width: 1058
     height: 927
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -371,36 +371,54 @@ MonoBehaviour:
     m_expandedTesselation: 0
     m_expandedProperties: 1
     m_expandedUsePass: 0
-  m_lastpath: Assets/ProyectoIntegrador/JuanGuaragnini/Tarea8-UI/UIFlow.shader
-  m_selectionMode: 0
+  m_lastpath: Assets/ProyectoIntegrador/JuanGuaragnini/CardScene/CharacterEvolve_mat.mat
+  m_selectionMode: 1
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 4063.4857970000003
-  m_lastTimeSaved: 0
+  m_inactivityTime: 4043.0864904
+  m_lastTimeSaved: 3971.8019412
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2138.8457, y: 830.99695}
-  m_cameraZoom: 1.793989
-  m_minNodePos: {x: -1553.898, y: -334.3435}
-  m_maxNodePos: {x: -711.5624, y: 160.036}
+  m_cameraOffset: {x: 2043.9836, y: 2593.7773}
+  m_cameraZoom: 3.137605
+  m_minNodePos: {x: -3909.026, y: -2052.885}
+  m_maxNodePos: {x: 483.0306, y: 1311.9963}
   m_isDirty: 0
   m_saveIsDirty: 0
   m_repaintIsDirty: 0
   m_liveShaderEditing: 0
-  m_shaderIsModified: 1
-  m_lastOpenedLocation: Assets/ProyectoIntegrador/JuanGuaragnini/Tarea8-UI/UIFlow.shader
+  m_shaderIsModified: 0
+  m_lastOpenedLocation: Assets/ProyectoIntegrador/JuanGuaragnini/CardScene/CharacterEvolve.shader
   m_zoomChanged: 0
-  m_lastWindowWidth: 970
-  m_graphCount: 1
-  m_currentInactiveTime: 6.919324499999675
+  m_lastWindowWidth: 1058
+  m_graphCount: 3
+  m_currentInactiveTime: 62.40410830000019
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
   m_isShaderFunctionWindow: 0
   m_openedShaderFunction: {fileID: 0}
   m_openedAssetFromNode: 0
-  m_messages: []
-  m_maxMsgWidth: 100
+  m_messages:
+  - ItemType: 1
+    ItemMessage: Unable to cast from SAMPLER2D to COLOR. You might want to use a
+      Texture Sample node and connect it to the 'Tex' port. Generating dummy data
+      ( 0 )
+    ItemTime: 3925.8818359375
+    ItemOwnerId: -1
+  - ItemType: 0
+    ItemMessage: 'Detected Asynchronous Shader Compilation. This can cause slowdowns
+      when saving not only ASE shaders but other shaders as well.
+
+      Please consider
+      turning it off ( Project Settings > Editor > Asynchronous Shader Compilation
+      ) if detecting big slowdowns on shader save.
+
+      This message can be turned
+      off via Preferences > Amplify Shader Editor > Show Async Message.'
+    ItemTime: 3925.881103515625
+    ItemOwnerId: -1
+  m_maxMsgWidth: 400
   m_maximizeMessages: 0
   m_frameCounter: 0
   m_fpsTime: 0
@@ -423,14 +441,14 @@ MonoBehaviour:
   m_MinSize: {x: 480, y: 270}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Outline
+    m_Text: CardBkrgn..
     m_Image: {fileID: 5596697988196858232, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1083
+    x: 995
     y: 73
-    width: 970
+    width: 1058
     height: 927
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -470,36 +488,48 @@ MonoBehaviour:
     m_expandedTesselation: 0
     m_expandedProperties: 1
     m_expandedUsePass: 0
-  m_lastpath: Assets/AmplifyShaderEditor/Examples/Built-In/Outline/Outline.mat
+  m_lastpath: Assets/ProyectoIntegrador/JuanGuaragnini/CardScene/CardBkrgnd_mat.mat
   m_selectionMode: 1
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 3206.6295032000003
-  m_lastTimeSaved: 0
+  m_inactivityTime: 3861.9396689
+  m_lastTimeSaved: 3854.1827469
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 503.7155, y: -98.43439}
+  m_cameraOffset: {x: 2935.0764, y: -25.251831}
   m_cameraZoom: 1
-  m_minNodePos: {x: -163.5004, y: 0}
-  m_maxNodePos: {x: 147.2, y: 542.2002}
+  m_minNodePos: {x: -4312.624, y: -2052.885}
+  m_maxNodePos: {x: 483.0306, y: 1214.285}
   m_isDirty: 0
   m_saveIsDirty: 0
   m_repaintIsDirty: 0
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
-  m_lastOpenedLocation: Assets/AmplifyShaderEditor/Examples/Built-In/Outline/Outline.shader
+  m_lastOpenedLocation: Assets/ProyectoIntegrador/JuanGuaragnini/CardScene/CardBkrgnd.shader
   m_zoomChanged: 0
-  m_lastWindowWidth: 970
+  m_lastWindowWidth: 1058
   m_graphCount: 1
-  m_currentInactiveTime: 17.64184529999966
+  m_currentInactiveTime: 3.21127609999985
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
   m_isShaderFunctionWindow: 0
   m_openedShaderFunction: {fileID: 0}
   m_openedAssetFromNode: 0
-  m_messages: []
-  m_maxMsgWidth: 100
+  m_messages:
+  - ItemType: 0
+    ItemMessage: 'Detected Asynchronous Shader Compilation. This can cause slowdowns
+      when saving not only ASE shaders but other shaders as well.
+
+      Please consider
+      turning it off ( Project Settings > Editor > Asynchronous Shader Compilation
+      ) if detecting big slowdowns on shader save.
+
+      This message can be turned
+      off via Preferences > Amplify Shader Editor > Show Async Message.'
+    ItemTime: 3808.26171875
+    ItemOwnerId: -1
+  m_maxMsgWidth: 400
   m_maximizeMessages: 0
   m_frameCounter: 0
   m_fpsTime: 0
@@ -522,7 +552,7 @@ MonoBehaviour:
   m_MinSize: {x: 480, y: 270}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: CardFrame
+    m_Text: CardFram..*
     m_Image: {fileID: 5596697988196858232, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
@@ -573,24 +603,24 @@ MonoBehaviour:
   m_selectionMode: 1
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 298.012236
-  m_lastTimeSaved: 248.76079769999998
+  m_inactivityTime: 3814.9940562
+  m_lastTimeSaved: 2861.2873029
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 2316.5066, y: 879.2952}
-  m_cameraZoom: 1.7981513
-  m_minNodePos: {x: -2157.3489, y: -1133.015}
+  m_cameraOffset: {x: 2187.4124, y: 2981.205}
+  m_cameraZoom: 3.9969652
+  m_minNodePos: {x: -3368.511, y: -2191.2642}
   m_maxNodePos: {x: 4783.315, y: 1881.319}
   m_isDirty: 0
   m_saveIsDirty: 0
   m_repaintIsDirty: 0
   m_liveShaderEditing: 0
-  m_shaderIsModified: 0
+  m_shaderIsModified: 1
   m_lastOpenedLocation: Assets/ProyectoIntegrador/JuanGuaragnini/CardScene/CardFrame.shader
   m_zoomChanged: 0
   m_lastWindowWidth: 1058
-  m_graphCount: 5
-  m_currentInactiveTime: 131.1871132
+  m_graphCount: 2
+  m_currentInactiveTime: 0.5372592999997323
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -608,7 +638,7 @@ MonoBehaviour:
 
       This message can be turned
       off via Preferences > Amplify Shader Editor > Show Async Message.'
-    ItemTime: 188.42625427246094
+    ItemTime: 2815.366455078125
     ItemOwnerId: -1
   m_maxMsgWidth: 400
   m_maximizeMessages: 0
@@ -1086,9 +1116,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.74348295, y: 3.10558, z: 0.41795778}
+    m_Target: {x: 0.029323077, y: 2.8161685, z: 3.524689}
     speed: 2
-    m_Value: {x: 0.74348295, y: 3.10558, z: 0.41795778}
+    m_Value: {x: 0.029323077, y: 2.8161685, z: 3.524689}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1136,11 +1166,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.000000014901161, y: 0.000000014901161, z: -0.0000000037252903, w: -1}
+    m_Value: {x: -0.000000029802322, y: 0.000000044703484, z: -0.0000000037252903, w: -1}
   m_Size:
-    m_Target: 2.5329418
+    m_Target: 2.5732353
     speed: 2
-    m_Value: 2.5329418
+    m_Value: 2.5732353
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1158,7 +1188,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.2380966, y: 0.1814145, z: -0.045321096, w: -0.9530712}
+  m_LastSceneViewRotation: {x: -0.09251423, y: 0.11829893, z: -0.011070571, w: -0.9885974}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1204,7 +1234,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 76efffff96efffffacefffffaeefffff
+      m_ExpandedIDs: dcf6fdff30f2ffff92f2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1273,7 +1303,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ProyectoIntegrador/JuanGuaragnini/Tarea8-UI
+    - Assets/LowlyPoly/Free Stylized Textures/Textures
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1281,16 +1311,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ProyectoIntegrador/JuanGuaragnini/Tarea8-UI
+  - Assets/LowlyPoly/Free Stylized Textures/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Git\Integrador-PG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 223}
-    m_SelectedIDs: 4e820000
-    m_LastClickedID: 33358
-    m_ExpandedIDs: 0000000010810000128100001481000016810000188100001a8100001c8100001e81000020810000228100001282000000ca9a3bffffff7f
+    m_SelectedIDs: 0c870000
+    m_LastClickedID: 34572
+    m_ExpandedIDs: 000000006472000066720000687200006a7200006c7200006e72000070720000727200007472000076720000547300005673000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1318,7 +1348,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000010810000128100001481000016810000188100001a8100001c8100001e8100002081000022810000
+    m_ExpandedIDs: 000000006472000066720000687200006a7200006c7200006e72000070720000727200007472000076720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1343,8 +1373,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 2cf2ffff
+    m_LastClickedInstanceID: -3540
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f87000004c700000d4e90000207a0000247a0000a2770000e07a0000487d00004a8e0000148e0000fe8d00003a840000ba840000d085000000000000f46a0000de6a0000dc6a0000
     m_RenameOverlay:
@@ -1370,7 +1400,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 101.5}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 305
@@ -1396,7 +1426,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 1021
-    width: 2053
+    width: 2054
     height: 330
   m_SerializedDataModeController:
     m_DataMode: 0
