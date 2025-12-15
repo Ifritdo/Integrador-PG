@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e4e0c0c5a13849146bbdc17bd96da69a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TexturaDistorsion: {fileID: 2800000, guid: b804cb1c14e3ced4d9871c9c9c855332, type: 3}
+  - _MapadeDistorcion: {fileID: 2800000, guid: f685104a33c23f54689bb62ce96fea48, type: 3}
+  - _Mascara: {fileID: 2800000, guid: 8a3452a842b60a84e92eb36a217964cb, type: 3}
+  - _Textura: {fileID: 2800000, guid: 2c6536772776dd84f872779990273bfc, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
