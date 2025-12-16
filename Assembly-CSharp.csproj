@@ -68,6 +68,7 @@
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\FPSController.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\PI_GameManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Weather\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\HealthBarManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\FightersManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\Door.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Dissolver.cs" />
@@ -78,6 +79,7 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\UI\BarraVida.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\readme.txt" />
     <None Include="Assets\ProyectoIntegrador\Materials\LoseScreen.shader" />
