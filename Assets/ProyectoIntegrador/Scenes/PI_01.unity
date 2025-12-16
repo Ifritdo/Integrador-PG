@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBarMaterial: {fileID: 2100000, guid: 188a1772b555aa9479319d9297315d88, type: 2}
-  damageAmount: 0.2
+  damageAmount: 0.5
   trailingDuration: 0.75
 --- !u!114 &1144571844
 MonoBehaviour:
@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBarMaterial: {fileID: 2100000, guid: 9c84d1c8a3988044eb37172121ee1c32, type: 2}
-  damageAmount: 0.2
+  damageAmount: 0.5
   trailingDuration: 0.75
 --- !u!114 &1980240283
 MonoBehaviour:
