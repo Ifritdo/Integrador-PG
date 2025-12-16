@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic; // Necesario para la lista de Materiales
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Dissolver : MonoBehaviour
@@ -10,8 +10,6 @@ public class Dissolver : MonoBehaviour
 
     // COLECCIONES
     private Renderer[] characterRenderers; // Todos los Renderers (muñeco, huesos, etc.)
-
-    // Lista de todos los materiales clonados que vamos a animar.
     private List<Material> allRuntimeDissolveMaterials = new List<Material>();
 
     private void Awake()
@@ -23,19 +21,14 @@ public class Dissolver : MonoBehaviour
         // 2. Crear los materiales de disolución en tiempo de ejecución (runtime)
         foreach (Renderer renderer in characterRenderers)
         {
-            // Clona el material para que los cambios sean únicos a este objeto
-            // y no afecte a otros personajes que compartan el mismo material base.
             Material[] mats = new Material[renderer.sharedMaterials.Length];
 
             for (int i = 0; i < mats.Length; i++)
             {
-                // Instanciar el material Dissolve template para cada ranura de material
                 Material dissolvedMat = Instantiate(dissolveMaterialTemplate);
                 mats[i] = dissolvedMat;
                 allRuntimeDissolveMaterials.Add(dissolvedMat);
             }
-
-            // NO se asigna aquí. Solo se crea.
         }
     }
 
@@ -53,7 +46,7 @@ public class Dissolver : MonoBehaviour
                 matsToAssign[i] = allRuntimeDissolveMaterials[materialIndex];
                 materialIndex++;
             }
-            renderer.materials = matsToAssign;
+            renderer.materials = matsToAssign; // Esto reemplaza los materiales existentes
         }
 
         // 2. Iniciar la disolución
@@ -64,34 +57,35 @@ public class Dissolver : MonoBehaviour
     {
         float time = 0f;
 
-        // ¡CRÍTICO! Inicializar el valor a 0.0 para que la transición no sea instantánea
+        // PASO 1: Inicialización (Debe ser Visible = 1.0)
         foreach (var mat in allRuntimeDissolveMaterials)
         {
-            mat.SetFloat(DissolveAmountPropertyName, 0f);
+            mat.SetFloat(DissolveAmountPropertyName, 1f);
         }
 
         while (time < dissolveDuration)
         {
             float t = time / dissolveDuration;
-            float dissolveValue = Mathf.Lerp(0f, 1f, t);
 
-            // ¡Iterar sobre TODOS los materiales clonados para animarlos!
+            // PASO 2: ANIMACIÓN (De 1.0 a 0.0)
+            float dissolveValue = Mathf.Lerp(1f, 0f, t); // ¡CAMBIO CLAVE!
+
             foreach (var mat in allRuntimeDissolveMaterials)
             {
                 mat.SetFloat(DissolveAmountPropertyName, dissolveValue);
             }
 
             time += Time.deltaTime;
-            yield return null; // Espera al siguiente frame (soluciona lo instantáneo)
+            yield return null;
         }
 
-        // Asegurar el valor final (1.0)
+        // PASO 3: Asegurar el valor final (Invisible = 0.0)
         foreach (var mat in allRuntimeDissolveMaterials)
         {
-            mat.SetFloat(DissolveAmountPropertyName, 1f);
+            mat.SetFloat(DissolveAmountPropertyName, 0f); // ¡CAMBIO CLAVE!
         }
 
-        // Si quieres ocultar el objeto al final
+        // Opcional: Desactivar el objeto principal
         // gameObject.SetActive(false); 
     }
 }

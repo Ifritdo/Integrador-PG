@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\fight\\dissolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|f:\\unity\\proyectos\\integrador pg\\integrador-pg\\assets\\proyectointegrador\\scripts\\fight\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\assets\\proyectointegrador\\scripts\\fight\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A7401B2-ABF9-9DD3-3876-677662072624}|Assembly-CSharp.csproj|solutionrelative:assets\\proyectointegrador\\scripts\\fight\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\Dissolver.cs",
               "ToolTip": "F:\\Unity\\Proyectos\\Integrador PG\\Integrador-PG\\Assets\\ProyectoIntegrador\\Scripts\\Fight\\Dissolver.cs",
               "RelativeToolTip": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\Dissolver.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwGAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAqwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T22:30:31.877Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Assets\\ProyectoIntegrador\\Scripts\\Fight\\Fighter.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA7wC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:08:45.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T21:08:45.807Z"
             },
             {
               "$type": "Document",
