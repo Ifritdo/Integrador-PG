@@ -32,19 +32,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EvoDistortionMask:
-        m_Texture: {fileID: 2800000, guid: 2259575a87b845d4a91fa6920e0603d3, type: 3}
+        m_Texture: {fileID: 2800000, guid: fe7997962e440e240befe3c642a0a819, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EvoTexture:
-        m_Texture: {fileID: 2800000, guid: 74274c5e9c951f041a7b33fa09fcd186, type: 3}
+        m_Texture: {fileID: 2800000, guid: d0d654841f69b394ab2d8a522633598a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoEvoDistortionMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2259575a87b845d4a91fa6920e0603d3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoEvoTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 74274c5e9c951f041a7b33fa09fcd186, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -54,7 +54,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Evo: 0
-    - _Umbral1: 0.5
+    - _Umbral1: 1
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
