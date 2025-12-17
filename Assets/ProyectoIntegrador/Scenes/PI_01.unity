@@ -734,7 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextSceneKey: 275
   prevSceneKey: 276
-  restartKey: 0
+  restartKey: 32
 --- !u!4 &651795720
 Transform:
   m_ObjectHideFlags: 0

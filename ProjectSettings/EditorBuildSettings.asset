@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ProyectoIntegrador/Scenes/PI_01.unity
+    guid: 23ea3345bdd97d047834ff36496be8bc
+  - enabled: 1
+    path: Assets/ProyectoIntegrador/Scenes/PI_04.unity
+    guid: 35b8e8509ee659142ac8da0476ab7db3
   m_configObjects: {}
