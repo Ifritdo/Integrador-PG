@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639015750702054607
+      ticks: 639015758536748384
     m_Hash: 3932935026
   m_LockFileStatus:
     m_FilePath: F:/Unity/Proyectos/Integrador PG/Integrador-PG/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639015750702064631
+      ticks: 639015758536748384
     m_Hash: 710976873
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 192697879}
   - component: {fileID: 192697881}
   - component: {fileID: 192697880}
+  - component: {fileID: 192697882}
   m_Layer: 5
   m_Name: BarraDeVidaF2
   m_TagString: Untagged
@@ -347,6 +348,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192697878}
   m_CullTransparentMesh: 1
+--- !u!114 &192697882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192697878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872fda7a33d38ef4b92f3b1db505b478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarMaterial: {fileID: 2100000, guid: 188a1772b555aa9479319d9297315d88, type: 2}
+  damageAmount: 0.5
+  trailingDuration: 0.75
 --- !u!1001 &306369791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,7 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 134c9fb825406d149b9c59ea3462bc7d, type: 3}
-  transitionDuration: 2
+  transitionDuration: 1.5
 --- !u!114 &306369795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -734,6 +750,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &735004074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+  m_PrefabInstance: {fileID: 1882691779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &735004075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735004074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de52e6274f9a0e94495b1f29adc47004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashDuration: 0.1
+  numberOfFlashes: 2
 --- !u!1 &975490888
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,53 +844,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975490888}
   m_CullTransparentMesh: 1
---- !u!1 &1044649592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1044649594}
-  - component: {fileID: 1044649593}
-  m_Layer: 0
-  m_Name: HealtBarManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1044649593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044649592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 872fda7a33d38ef4b92f3b1db505b478, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthBarMaterial: {fileID: 0}
-  damageAmount: 0.5
-  trailingDuration: 0.75
---- !u!4 &1044649594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044649592}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 754.3882, y: 611.76624, z: 4.4705677}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1052704725 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
@@ -904,14 +892,134 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 735004075}
+        m_TargetAssemblyTypeName: HitReaction, Assembly-CSharp
+        m_MethodName: "TomarDa\xF1o"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 306369795}
+        m_TargetAssemblyTypeName: CameraShake, Assembly-CSharp
+        m_MethodName: ShakeOnHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 192697882}
+        m_TargetAssemblyTypeName: HealthBarManager, Assembly-CSharp
+        m_MethodName: ReceiveHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 735004075}
+        m_TargetAssemblyTypeName: HitReaction, Assembly-CSharp
+        m_MethodName: "TomarDa\xF1o"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 306369795}
+        m_TargetAssemblyTypeName: CameraShake, Assembly-CSharp
+        m_MethodName: ShakeOnHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 192697882}
+        m_TargetAssemblyTypeName: HealthBarManager, Assembly-CSharp
+        m_MethodName: ReceiveHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
-      m_Calls: []
-  postProcessor: {fileID: 0}
+      m_Calls:
+      - m_Target: {fileID: 1052704727}
+        m_TargetAssemblyTypeName: Fighter, Assembly-CSharp
+        m_MethodName: OnFallAnimationFinished
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1052704728}
+        m_TargetAssemblyTypeName: Dissolver, Assembly-CSharp
+        m_MethodName: StartDissolve
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1217714774}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1071249907}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  postProcessor: {fileID: 306369794}
 --- !u!114 &1052704728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,7 +1033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dissolveMaterialTemplate: {fileID: 2100000, guid: dcd41678f29b0b14e99f68218e040c55, type: 2}
-  dissolveDuration: 6
+  dissolveDuration: 8
 --- !u!1 &1071249907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,7 +1291,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1207,8 +1315,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1280,6 +1388,7 @@ GameObject:
   - component: {fileID: 1617372563}
   - component: {fileID: 1617372565}
   - component: {fileID: 1617372564}
+  - component: {fileID: 1617372566}
   m_Layer: 5
   m_Name: BarraDeVidaF1
   m_TagString: Untagged
@@ -1344,6 +1453,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617372562}
   m_CullTransparentMesh: 1
+--- !u!114 &1617372566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617372562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872fda7a33d38ef4b92f3b1db505b478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarMaterial: {fileID: 2100000, guid: 9c84d1c8a3988044eb37172121ee1c32, type: 2}
+  damageAmount: 0.5
+  trailingDuration: 0.75
 --- !u!1001 &1882691779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1413,6 +1537,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1052704728}
+    - targetCorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 735004075}
   m_SourcePrefab: {fileID: 100100000, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
 --- !u!1 &1898142329
 GameObject:
@@ -1511,7 +1638,43 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2105833872}
+        m_TargetAssemblyTypeName: HitReaction, Assembly-CSharp
+        m_MethodName: "TomarDa\xF1o"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 306369795}
+        m_TargetAssemblyTypeName: CameraShake, Assembly-CSharp
+        m_MethodName: ShakeOnHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1617372566}
+        m_TargetAssemblyTypeName: HealthBarManager, Assembly-CSharp
+        m_MethodName: ReceiveHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
@@ -1538,6 +1701,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2105833871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+  m_PrefabInstance: {fileID: 2123351209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105833872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105833871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de52e6274f9a0e94495b1f29adc47004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashDuration: 0.1
+  numberOfFlashes: 2
 --- !u!1001 &2123351209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1604,6 +1786,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1971989551}
+    - targetCorrespondingSourceObject: {fileID: -3090848061168836670, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105833872}
   m_SourcePrefab: {fileID: 100100000, guid: 86f854466f0b221449d8ec1ce38dde85, type: 3}
 --- !u!1 &2126683744
 GameObject:
@@ -1691,7 +1876,6 @@ SceneRoots:
   - {fileID: 2123351209}
   - {fileID: 1882691779}
   - {fileID: 1217714778}
-  - {fileID: 1898142332}
   - {fileID: 1071249911}
+  - {fileID: 1898142332}
   - {fileID: 620822901}
-  - {fileID: 1044649594}
