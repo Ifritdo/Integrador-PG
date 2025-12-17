@@ -54,6 +54,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Evo: 0
+    - _Umbral: 1
     - _Umbral1: 1
     - __dirty: 0
     m_Colors: []
