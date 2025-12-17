@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\CameraShake.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\SimpleTimer.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Fighter.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\HitReaction.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
@@ -79,6 +80,7 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\UI\KO\Distortion.shader" />
     <None Include="Assets\ProyectoIntegrador\Materials\UI\BarraVida.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\readme.txt" />

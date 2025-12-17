@@ -367,6 +367,7 @@
 "Assets/ProyectoIntegrador/Scripts/Fight/Fighter.cs"
 "Assets/ProyectoIntegrador/Scripts/Fight/FightersManager.cs"
 "Assets/ProyectoIntegrador/Scripts/Fight/HealthBarManager.cs"
+"Assets/ProyectoIntegrador/Scripts/Fight/SimpleTimer.cs"
 "Assets/ProyectoIntegrador/Scripts/HitReaction.cs"
 "Assets/ProyectoIntegrador/Scripts/PI_GameManager.cs"
 "Assets/ProyectoIntegrador/Scripts/Shield/Shield.cs"
