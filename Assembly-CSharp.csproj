@@ -60,6 +60,8 @@
     <Analyzer Include="F:\Unity\2022.3.62f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\CameraShake.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\SimpleTimer.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Fighter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
@@ -84,10 +86,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\postProcessing.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\HealthBarManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -95,6 +99,7 @@
     <Compile Include="Assets\CardManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\Door.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Dissolver.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -105,6 +110,7 @@
     <Compile Include="Assets\Card.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shooter\Shooter.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\HitReaction.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shield\Shield.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
@@ -116,13 +122,16 @@
     <None Include="Assets\Alvios\101ArtisticNoise\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Distance\DistBall.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\UI\KO\Distortion.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\PostProcess\Bloom.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\PostProcess\PostProcess.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\UI\BarraVida.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea8-UI\UIButtonHighlight.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\readme.txt" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea9-Stencil\Solo_se_ve_Adentro\WriterMask.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\LoseScreen.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\CardWindow.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -137,7 +146,9 @@
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea8-UI\UIDistort.shader" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea10-Projector\Highlight\Proyector.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\ScreenPulse.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\Disolution.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\CardFrame.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\Fresnel.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea7-RenderTxt\TvVignette.shader" />
@@ -156,6 +167,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea7-RenderTxt\TvBloom.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\ProyectoIntegrador\Materials\UI\TimerCartel.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea8-UI\SpriteDissolve.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tareas\2708\Ej5.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -178,6 +190,7 @@
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tareas\2708\Ej6.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\CardBkrgnd.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\TVs &amp; Cams\_Television_set\SpecGrayscaleSF.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\RecibirGolpe.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tareas\Clase1\Example.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Distance\Ripple.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\CardText.shader" />

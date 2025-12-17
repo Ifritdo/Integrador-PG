@@ -6,30 +6,40 @@ using UnityEngine.Events;
 
 public class Fighter : MonoBehaviour
 {
-   [SerializeField] private List<float> delays  = new List<float>(); 
-   [SerializeField] private List<UnityEvent> events  = new List<UnityEvent>();
-   
-   private int currentIndex;
-   private Animator animator;
+    [SerializeField] private List<float> delays = new List<float>();
+    [SerializeField] private List<UnityEvent> events = new List<UnityEvent>();
 
-   private void Start()
-   {
-      animator = GetComponent<Animator>();
-   }
+    [SerializeField] private postProcessing postProcessor;
 
-   public void TriggerAnimation()
-   {
-      currentIndex++;
+    private int currentIndex;
+    private Animator animator;
 
-      StartCoroutine(DelayAnimation());
-   }
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
-   private IEnumerator DelayAnimation()
-   {
-      yield return new WaitForSeconds(delays[currentIndex]);
-      animator.SetInteger("index", currentIndex);
-      animator.SetTrigger("triggerAnim");
-      events[currentIndex].Invoke();
-   }
+    public void TriggerAnimation()
+    {
+        currentIndex++;
+
+        StartCoroutine(DelayAnimation());
+    }
+
+    private IEnumerator DelayAnimation()
+    {
+        yield return new WaitForSeconds(delays[currentIndex]);
+        animator.SetInteger("index", currentIndex);
+        animator.SetTrigger("triggerAnim");
+        events[currentIndex].Invoke();
+    }
+
+    public void OnFallAnimationFinished()
+    {
+        if (postProcessor != null)
+        {
+            postProcessor.StartGrayscaleTransition();
+        }
+    }
 
 }
