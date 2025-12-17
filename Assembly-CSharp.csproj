@@ -63,7 +63,6 @@
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\CameraShake.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\SimpleTimer.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Fighter.cs" />
-    <Compile Include="Assets\ProyectoIntegrador\Scripts\HitReaction.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\Rotate.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\FPSController.cs" />
@@ -75,6 +74,7 @@
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Dissolver.cs" />
     <Compile Include="Assets\MaterialesClase\postProcessing.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shooter\Shooter.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\HitReaction.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shield\Shield.cs" />
   </ItemGroup>
   <ItemGroup>
