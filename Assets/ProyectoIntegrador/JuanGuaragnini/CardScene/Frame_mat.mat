@@ -179,7 +179,7 @@ Material:
     - _TransShadow: 0.9
     - _Translucency: 1
     - _UVSec: 0
-    - _Umbral: 1
+    - _Umbral: 0.9994904
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:

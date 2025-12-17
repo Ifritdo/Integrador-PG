@@ -132,6 +132,7 @@
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea9-Stencil\Solo_se_ve_Adentro\WriterMask.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\LoseScreen.shader" />
+    <None Include="Assets\ProyectoIntegrador\Santi\Botones.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\CardScene\CardWindow.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -175,6 +176,7 @@
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea8-UI\UIRotate.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Distance\ObjectWaveMover.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Tarea10-Projector\WAWA\Wawa.shader" />
+    <None Include="Assets\ProyectoIntegrador\Santi\Botones2.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\PostProcess\Vignete.shader" />
     <None Include="Assets\ProyectoIntegrador\JuanGuaragnini\Distance\Distance.shader" />

@@ -20,6 +20,12 @@ public class Card : MonoBehaviour
 
     public void Evolucionar(){ StartCoroutine(Evolucion(duraciondescarte));}
 
+    public void SeleccionarDesdeUI()
+    {
+        CardManager.Instance.SeleccionarCarta(this);
+        Debug.Log("Carta seleccionada desde el Botón");
+    }
+
     public void Descartar()
     {
         StartCoroutine(Descarte(duraciondescarte));
