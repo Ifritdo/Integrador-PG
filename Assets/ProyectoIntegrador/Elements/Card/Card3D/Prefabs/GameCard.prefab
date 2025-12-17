@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1067368456796270}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0.242}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0.004}
   m_LocalScale: {x: 0.86, y: 0.67, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -131,7 +131,7 @@ Transform:
   m_GameObject: {fileID: 1071870558709014}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.091}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -149,6 +149,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4820766344616538}
   - component: {fileID: 114697580309060016}
+  - component: {fileID: 2955552853327423068}
+  - component: {fileID: 1761062193550596263}
   m_Layer: 0
   m_Name: GameCard
   m_TagString: Untagged
@@ -193,6 +195,43 @@ MonoBehaviour:
   rotationSpeedV: 0.13
   angleH: 40
   angleV: 15
+--- !u!114 &2955552853327423068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379305409004934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58b43ea7eafa7446b7f57e026719e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame_mat: {fileID: 2100000, guid: 2af81878cd97ec548ae32b4a9c52fb27, type: 2}
+  back_mat: {fileID: 2100000, guid: 3e0467a1db1c63046b3757c7a66c0962, type: 2}
+  character_mat: {fileID: 2100000, guid: 3910f5e6d412eb840b4c0b03484c7408, type: 2}
+  duraciondescarte: 5
+--- !u!65 &1761062193550596263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379305409004934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.481877, z: 1}
+  m_Center: {x: 0, y: 0.036182716, z: 0}
 --- !u!1 &1501282826037758
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 1869052601686504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.03899999, z: 1.28}
+  m_LocalPosition: {x: 0, y: 0.03899999, z: 2.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
