@@ -68,11 +68,11 @@
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\FPSController.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\PI_GameManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Weather\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
+    <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\postProcessing.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\HealthBarManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\FightersManager.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Elements\Doors\Free Wood Door Pack\Script\Door.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\Dissolver.cs" />
-    <Compile Include="Assets\MaterialesClase\postProcessing.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shooter\Shooter.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Fight\HitReaction.cs" />
     <Compile Include="Assets\ProyectoIntegrador\Scripts\Shield\Shield.cs" />
@@ -84,14 +84,14 @@
     <None Include="Assets\ProyectoIntegrador\Materials\UI\BarraVida.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\readme.txt" />
-    <None Include="Assets\ProyectoIntegrador\Materials\LoseScreen.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\LoseScreen.shader" />
     <None Include="Assets\MaterialesClase\ActividadesClase\LensDistortion.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\Card\Card3D\StencilMask.shader" />
-    <None Include="Assets\ProyectoIntegrador\Materials\ScreenPulse.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\ScreenPulse.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\ProyectoIntegrador\Materials\Disolution.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\Disolution.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -112,7 +112,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\ProyectoIntegrador\Elements\TVs &amp; Cams\_Television_set\SpecGrayscaleSF.shader" />
-    <None Include="Assets\ProyectoIntegrador\Materials\RecibirGolpe.shader" />
+    <None Include="Assets\ProyectoIntegrador\Materials\FighterMaterials\RecibirGolpe.shader" />
     <None Include="Assets\MaterialesClase\ActividadesClase\Flow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
