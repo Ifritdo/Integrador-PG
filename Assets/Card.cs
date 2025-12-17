@@ -18,12 +18,10 @@ public class Card : MonoBehaviour
 
     private void Start()
     {
-        // Obtenemos las instancias de los materiales de los hijos
         if (objMarco != null) frame_mat = objMarco.GetComponent<Renderer>().material;
         if (objFondo != null) back_mat = objFondo.GetComponent<Renderer>().material;
         if (objPersonaje != null) character_mat = objPersonaje.GetComponent<Renderer>().material;
 
-        // Reset de valores en el Shader
         if (back_mat != null) back_mat.SetFloat("_Evo", 0f);
         if (back_mat != null) back_mat.SetFloat("_Umbral", 1f);
     }
@@ -39,7 +37,6 @@ public class Card : MonoBehaviour
     public void AlSerSeleccionada() { if (frame_mat) frame_mat.SetFloat("_Hover", 1f); }
     public void AlSerDeseleccionada() { if (frame_mat) frame_mat.SetFloat("_Hover", 0f); }
 
-    // --- SECCIÓN DE EVOLUCIÓN ---
     public void Evolucionar()
     {
         StartCoroutine(Evolucion(duraciondescarte));
@@ -60,7 +57,6 @@ public class Card : MonoBehaviour
         if (back_mat) back_mat.SetFloat("_Evo", 1f);
     }
 
-    // --- SECCIÓN DE DESCARTE (Lo que faltaba) ---
     public void Descartar()
     {
         StartCoroutine(Descarte(duraciondescarte));
