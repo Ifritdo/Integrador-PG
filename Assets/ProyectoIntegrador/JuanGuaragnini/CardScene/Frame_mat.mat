@@ -152,7 +152,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Evo: 1
+    - _Evo: 0.38315406
     - _FireIntensity: 0.89
     - _FireIntensity1: 2
     - _Frecuencia: 4

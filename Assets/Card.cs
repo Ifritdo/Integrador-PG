@@ -4,60 +4,83 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
+    [Header("Objetos Hijos (Arrastrar desde la Jerarquía)")]
+    [SerializeField] private GameObject objMarco;
+    [SerializeField] private GameObject objFondo;
+    [SerializeField] private GameObject objPersonaje;
 
-    [SerializeField] private Material frame_mat;
-    [SerializeField] private Material back_mat;
-    [SerializeField] private Material character_mat;
-    private SpriteRenderer spriteRenderer;
-    private Color colorOriginal;
+    [Header("Configuración")]
     [SerializeField] private float duraciondescarte = 5f;
 
-    private void OnMouseDown(){ CardManager.Instance.SeleccionarCarta(this); Debug.Log("Carta Seleccionada");}
+    private Material frame_mat;
+    private Material back_mat;
+    private Material character_mat;
 
-    public void AlSerSeleccionada(){ frame_mat.SetFloat("_Hover",1f);}
+    private void Start()
+    {
+        // Obtenemos las instancias de los materiales de los hijos
+        if (objMarco != null) frame_mat = objMarco.GetComponent<Renderer>().material;
+        if (objFondo != null) back_mat = objFondo.GetComponent<Renderer>().material;
+        if (objPersonaje != null) character_mat = objPersonaje.GetComponent<Renderer>().material;
 
-    public void AlSerDeseleccionada(){ frame_mat.SetFloat("_Hover",0f);}
-
-    public void Evolucionar(){ StartCoroutine(Evolucion(duraciondescarte));}
+        // Reset de valores en el Shader
+        if (back_mat != null) back_mat.SetFloat("_Evo", 0f);
+        if (back_mat != null) back_mat.SetFloat("_Umbral", 1f);
+    }
 
     public void SeleccionarDesdeUI()
     {
-        CardManager.Instance.SeleccionarCarta(this);
-        Debug.Log("Carta seleccionada desde el Botón");
+        if (CardManager.Instance != null)
+            CardManager.Instance.SeleccionarCarta(this);
     }
 
-    public void Descartar()
-    {
-        StartCoroutine(Descarte(duraciondescarte));
-        Destroy(gameObject);
-    }
+    private void OnMouseDown() { SeleccionarDesdeUI(); }
 
-    IEnumerator Descarte(float tiempoTotal)
+    public void AlSerSeleccionada() { if (frame_mat) frame_mat.SetFloat("_Hover", 1f); }
+    public void AlSerDeseleccionada() { if (frame_mat) frame_mat.SetFloat("_Hover", 0f); }
+
+    // --- SECCIÓN DE EVOLUCIÓN ---
+    public void Evolucionar()
     {
-        float tiempoTranscurrido = 0f;
-        while (back_mat.GetFloat("_Umbral") > 0)
-        {
-            tiempoTranscurrido += Time.deltaTime;
-            float t = tiempoTranscurrido / tiempoTotal;
-            back_mat.SetFloat("_Umbral",Mathf.Lerp(1f, 0f, t));
-            frame_mat.SetFloat("_Umbral",Mathf.Lerp(1f, 0f, t));
-            character_mat.SetFloat("_Umbral",Mathf.Lerp(1f, 0f, t));
-            yield return null;
-        }
+        StartCoroutine(Evolucion(duraciondescarte));
     }
 
     IEnumerator Evolucion(float tiempoTotal)
     {
         float tiempoTranscurrido = 0f;
-        while (back_mat.GetFloat("_Evo") < 1)
+        while (tiempoTranscurrido < tiempoTotal)
         {
             tiempoTranscurrido += Time.deltaTime;
             float t = tiempoTranscurrido / tiempoTotal;
-            back_mat.SetFloat("_Evo",Mathf.Lerp(0f, 1f, t));
-            frame_mat.SetFloat("_Evo",Mathf.Lerp(0f, 1f, t));
-            character_mat.SetFloat("_Evo",Mathf.Lerp(0f, 1f, t));
+            if (back_mat) back_mat.SetFloat("_Evo", t);
+            if (frame_mat) frame_mat.SetFloat("_Evo", t);
+            if (character_mat) character_mat.SetFloat("_Evo", t);
             yield return null;
         }
+        if (back_mat) back_mat.SetFloat("_Evo", 1f);
+    }
+
+    // --- SECCIÓN DE DESCARTE (Lo que faltaba) ---
+    public void Descartar()
+    {
+        StartCoroutine(Descarte(duraciondescarte));
+    }
+
+    IEnumerator Descarte(float tiempoTotal)
+    {
+        float tiempoTranscurrido = 0f;
+        while (tiempoTranscurrido < tiempoTotal)
+        {
+            tiempoTranscurrido += Time.deltaTime;
+            float t = tiempoTranscurrido / tiempoTotal;
+            float valorUmbral = Mathf.Lerp(1f, 0f, t);
+
+            if (back_mat) back_mat.SetFloat("_Umbral", valorUmbral);
+            if (frame_mat) frame_mat.SetFloat("_Umbral", valorUmbral);
+            if (character_mat) character_mat.SetFloat("_Umbral", valorUmbral);
+
+            yield return null;
+        }
+        Destroy(gameObject);
     }
 }
-
